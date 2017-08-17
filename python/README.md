@@ -1,3 +1,6 @@
+## Intro
+
+I created 4 different compute functions and analyzed their performance. They all satisfy the unit test.
 
 ## Unit Test
 
@@ -94,4 +97,9 @@ GAT = 'GAT'* 500000
 ```
 
     1 loop, best of 3: 230 ms per loop
+    
+## Conclusion
+ - Using the generator performed better than using a regular for loop.
+ - Use of izip gave almost an order of magnitude better performance.
+    
 
