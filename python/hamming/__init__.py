@@ -46,7 +46,6 @@ def compute_with_numpy(strand_a, strand_b):
     if strand_a.size != strand_b.size:
         raise ValueError("Strands must be of equal length")
 
-    # use of a generator expression
     return np.count_nonzero(strand_a != strand_b)
 
 
